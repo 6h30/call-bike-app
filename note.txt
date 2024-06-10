@@ -1,0 +1,39 @@
+# Đồ án Chuyên đề thiết kế phần mềm nâng cao (HK2 2023-2024)
+MSSV: 21880291
+Họ và tên: Trương Trung Đức
+
+#Hướng dẫn cài đặt ứng dụng
+1. Khởi động server:
+- Từ thư mục gốc của ứng dụng: @/backend/ 
+1. Cài đặt các phụ thuộc 
+   ```
+   npm install
+   ```
+2. Khởi động server
+```
+npx nodemon
+```
+3. Khởi động Rabbit MQ 
+
+2.Chạy ứng dụng
+- Từ thư mục gốc của ứng dụng: @/callbike/ 
+1. Cài đặt các phụ thuộc 
+   ```
+   npm install
+   ```
+
+2. Khởi động ứng dụng 
+
+   ```
+    npx expo start
+   ```
+3. Mở ứng dụng Expo Go trên thiết bị (ứng dụng được phát triển qua Expo và chưa được xuất bản, cần cài đặt ứng dụng Expo go: https://expo.dev/go)
+4. Mặc định app sẽ được chạy ở môi trường development buil, nhấn 's' để chuyển qua môi trường expo go để chạy ứng dụng
+5. Quét mã Qr (từ terminal của Vs code) hoặc truy cập theo đường dẫn local expo cung cấp (xem video hướng dẫn)
+6. tài khoản mẫu được sử dụng login vào ứng dụng:
+username: dc
+password: ad
+
+//ngoài ra cần cài đặt thêm các ext:
+npm i express pg pg-hstore sequelize sequelize-cli
+rabbitMQ
